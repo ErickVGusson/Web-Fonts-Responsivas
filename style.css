@@ -1,0 +1,23 @@
+/* Define a fonte e sua origem usando @font-face *//*
+@font-face {
+    font-family: "Roboto";
+    src: url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+}
+
+/* Aplica a fonte nos elementos desejados */
+html, body {
+    font-family: "Roboto", sans-serif;
+}
+
+/* Usa uma media query para carregar uma fonte diferente para telas menores */
+@media screen and (min-width: 768px) {
+   /* @font-face {
+        font-family: "Fuggles";
+        src: url("https://fonts.googleapis.com/css2?family=Fuggles&display=swap");
+    }*/
+
+    html, body {
+        font-family: "Fuggles", cursive;
+    }
+    
+}
